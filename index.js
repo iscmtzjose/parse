@@ -19,7 +19,7 @@ var api = new ParseServer({
   masterKey: process.env.MASTER_KEY || 'QA3njV4Y6KAoFNQOfZ5C15G0g1pzs5arhwKhhIBW', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse', 
 javascriptKey: process.env.JAVASCRIPT_KEY || 'SSWjgQW7vpirYtHl39BLSk4YSWLlRm0c8mZ4ZOol',  //** add this line no need to set values, they will be overwritten by heroku config vars
-  restAPIKey: process.env.REST_API_KEY || '', //** add this line
+  restAPIKey: process.env.REST_API_KEY || 'SgBhQBSQdkHg0cYPLfktxtkwrU79t5eEESywobxs', //** add this line
   dotNetKey: process.env.DOT_NET_KEY || 't10ae2pkgoTfCmm5gPE05ut5rPsCzol6VTFzpm5c', //** add this line
   clientKey: process.env.CLIENT_KEY || 'zy9FKpQGQwnwArN2OFaN8s1VUdKxBH5QquuyRViA', //** add this line  // Don't forget to change to https if needed
   liveQuery: {
